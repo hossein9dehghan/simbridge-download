@@ -43,7 +43,7 @@ The easiest way is the **[install page](https://hossein9dehghan.github.io/simbri
 
 ### 2a. iPhone or iPad
 
-1. Set up **[SideStore](https://sidestore.io)** once, following its own guide. It signs apps with your Apple ID on the iPhone itself. AltStore or Sideloadly work too.
+1. Set up **SideStore** once: **[step-by-step guide](https://hossein9dehghan.github.io/simbridge-download/sidestore.html)** (needs a computer and a cable once, about 15 minutes). It signs apps with your Apple ID on the iPhone itself. AltStore or Sideloadly work too.
 2. Add this source to SideStore or AltStore, then install SimBridge from it:
    ```
    https://hossein9dehghan.github.io/simbridge-download/source.json
@@ -101,7 +101,7 @@ The easiest way is the **[install page](https://hossein9dehghan.github.io/simbri
 **صدای تماس** (اندروید ۱۱ یا جدیدتر): SimBridge یک کمک‌برنامه‌ی کوچک را از راه «اشکال‌زدایی بی‌سیم» خود اندروید روشن می‌کند. برای این کار گزینه‌های برنامه‌نویس باید روشن باشد و یک بار به Wi‑Fi نیاز است. خود برنامه قدم‌به‌قدم راهنمایی می‌کند. پیامک و زنگ بدون آن هم کار می‌کنند.
 
 **۲. آیفون یا آیپد**
-1. **[SideStore](https://sidestore.io)** را یک بار طبق راهنمای خودش راه بیندازید. برنامه‌ها را با Apple ID شما روی خود آیفون امضا می‌کند. AltStore یا Sideloadly هم کار می‌کنند.
+1. **SideStore** را یک بار راه بیندازید: **[آموزش قدم‌به‌قدم](https://hossein9dehghan.github.io/simbridge-download/sidestore.html)** (فقط یک بار کامپیوتر و کابل لازم است، حدود ۱۵ دقیقه). برنامه‌ها را با Apple ID شما روی خود آیفون امضا می‌کند. AltStore یا Sideloadly هم کار می‌کنند.
 2. این منبع را به SideStore یا AltStore اضافه کنید و SimBridge را از آن نصب کنید:
    `https://hossein9dehghan.github.io/simbridge-download/source.json`
    یا فایل `.ipa` را از Releases با Sideloadly نصب کنید.

@@ -1,0 +1,71 @@
+<!doctype html><html lang="fa"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SideStore guide</title><link rel="icon" href="icon.png">
+<style>:root{color-scheme:light dark;--bg:#fff;--fg:#111;--card:#f3f3f5;--dim:#666}@media(prefers-color-scheme:dark){:root{--bg:#000;--fg:#f5f5f7;--card:#1c1c1e;--dim:#999}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 -apple-system,system-ui,sans-serif}main{max-width:640px;margin:0 auto;padding:32px 16px}
+h1{font-size:28px;margin:0 0 4px}h2{font-size:20px;margin:0 0 8px}section{background:var(--card);border-radius:20px;padding:20px;margin:16px 0}ol{margin:0;padding-inline-start:22px}li{margin:8px 0}
+a{color:inherit}.b{display:inline-block;background:var(--fg);color:var(--bg);border-radius:999px;padding:10px 18px;margin:12px 0 0;text-decoration:none;font-weight:600}.d{color:var(--dim);margin:0;font-size:15px}article+article{margin-top:56px}code{font-size:15px}</style>
+<main>
+<article lang="fa" dir="rtl">
+<h1>راه‌اندازی SideStore</h1>
+<p class="d">فقط یک بار لازم است، حدود ۱۵ دقیقه. یک کامپیوتر (مک یا ویندوز) و کابل آیفون می‌خواهد؛ بعد از آن دیگر کامپیوتر لازم نیست.</p>
+<section><h2>۱. روی آیفون</h2><ol>
+<li>برنامه‌ی <a href="https://apps.apple.com/app/localdevvpn/id6755608044">LocalDevVPN</a> را از App Store نصب کنید.</li>
+<li>بازش کنید، Connect را بزنید و اجازه‌ی VPN را بدهید.</li>
+</ol></section>
+<section><h2>۲. روی کامپیوتر</h2><ol>
+<li>برنامه‌ی <a href="https://iloader.app">iloader</a> را نصب کنید. روی ویندوز اول iTunes را از سایت اپل نصب کنید.</li>
+<li>آیفون را با کابل وصل کنید و روی آیفون «Trust» را بزنید.</li>
+<li>در iloader با Apple ID وارد شوید. بهتر است یک Apple ID جدا برای این کار بسازید.</li>
+<li>آیفون را انتخاب کنید و <b>Install SideStore (Stable)</b> را بزنید.</li>
+<li>بعد در همان iloader، <b>Manage Pairing File</b> را بزنید و کنار SideStore، <b>Place</b> را بزنید.</li>
+</ol></section>
+<section><h2>۳. دوباره روی آیفون</h2><ol>
+<li>Settings › General › VPN &amp; Device Management: زیر Developer App، Apple ID خودتان را بزنید و Trust کنید.</li>
+<li>Settings › Privacy &amp; Security › <b>Developer Mode</b> را روشن کنید. گوشی ری‌استارت می‌شود.</li>
+<li>LocalDevVPN را باز کنید و Connect را بزنید.</li>
+<li>SideStore را باز کنید و با همان Apple ID وارد شوید.</li>
+</ol></section>
+<section><h2>۴. نصب SimBridge</h2><ol>
+<li>LocalDevVPN وصل باشد و آیفون به Wi‑Fi.</li>
+<li>همین صفحه را روی آیفون باز کنید و دکمه‌ی زیر را بزنید؛ SideStore باز می‌شود. SimBridge را از آن‌جا نصب کنید.</li>
+</ol><a class="b" href="sidestore://source?url=https%3A%2F%2Fhossein9dehghan.github.io%2Fsimbridge-download%2Fsource.json">افزودن به SideStore</a></section>
+<section><h2>خوب است بدانید</h2><ol>
+<li>برنامه‌ها با Apple ID رایگان ۷ روز کار می‌کنند. SideStore وقتی LocalDevVPN و Wi‑Fi وصل باشند خودش تمدید می‌کند. می‌توانید در My Apps روی «7 DAYS» هم بزنید.</li>
+<li>بعد از به‌روزرسانی iOS ممکن است لازم شود قدم Place در iloader را تکرار کنید.</li>
+<li>اگر SideStore وصل نشد: LocalDevVPN و Wi‑Fi را چک کنید، برنامه‌های مسدودکننده‌ی تبلیغ یا DNS را خاموش کنید و هر دو برنامه را دوباره باز کنید.</li>
+<li>راهنمای کامل: <a href="https://docs.sidestore.io">docs.sidestore.io</a></li>
+</ol></section>
+<p class="d"><a href="./">بازگشت به صفحه‌ی نصب</a></p>
+</article>
+<article lang="en" dir="ltr">
+<h1>Set up SideStore</h1>
+<p class="d">Once, about 15 minutes. Needs a Mac or Windows computer and an iPhone cable; after that, no computer.</p>
+<section><h2>1. On the iPhone</h2><ol>
+<li>Install <a href="https://apps.apple.com/app/localdevvpn/id6755608044">LocalDevVPN</a> from the App Store.</li>
+<li>Open it, tap Connect and allow the VPN.</li>
+</ol></section>
+<section><h2>2. On the computer</h2><ol>
+<li>Install <a href="https://iloader.app">iloader</a>. On Windows, install iTunes from Apple first.</li>
+<li>Connect the iPhone by cable and tap Trust on it.</li>
+<li>Sign in to iloader with an Apple ID. A separate Apple ID for this is safer.</li>
+<li>Select the iPhone and choose <b>Install SideStore (Stable)</b>.</li>
+<li>Then choose <b>Manage Pairing File</b> and <b>Place</b> next to SideStore.</li>
+</ol></section>
+<section><h2>3. Back on the iPhone</h2><ol>
+<li>Settings › General › VPN &amp; Device Management: under Developer App, tap your Apple ID and Trust it.</li>
+<li>Turn on Settings › Privacy &amp; Security › <b>Developer Mode</b>. The phone restarts.</li>
+<li>Open LocalDevVPN and tap Connect.</li>
+<li>Open SideStore and sign in with the same Apple ID.</li>
+</ol></section>
+<section><h2>4. Install SimBridge</h2><ol>
+<li>Keep LocalDevVPN connected and the iPhone on Wi‑Fi.</li>
+<li>Open this page on the iPhone and tap the button; SideStore opens. Install SimBridge there.</li>
+</ol><a class="b" href="sidestore://source?url=https%3A%2F%2Fhossein9dehghan.github.io%2Fsimbridge-download%2Fsource.json">Add to SideStore</a></section>
+<section><h2>Good to know</h2><ol>
+<li>With a free Apple ID apps run for 7 days. SideStore renews them while LocalDevVPN and Wi‑Fi are on; you can also tap “7 DAYS” in My Apps.</li>
+<li>After an iOS update you may need to repeat Place in iloader.</li>
+<li>If SideStore can't connect: check LocalDevVPN and Wi‑Fi, turn off ad or DNS blockers, and reopen both apps.</li>
+<li>Full guide: <a href="https://docs.sidestore.io">docs.sidestore.io</a></li>
+</ol></section>
+<p class="d"><a href="./">Back to the install page</a></p>
+</article>
+</main></html>
