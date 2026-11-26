@@ -1,0 +1,41 @@
+{
+  "name": "SimBridge",
+  "identifier": "dev.simbridge.source",
+  "sourceURL": "https://hossein9dehghan.github.io/simbridge-download/source.json",
+  "apps": [
+    {
+      "name": "SimBridge",
+      "bundleIdentifier": "dev.simbridge.ios",
+      "developerName": "SimBridge",
+      "subtitle": "Your Android number, on your iPhone",
+      "localizedDescription": "Texts and calls of the SIM in your Android phone, over Bluetooth and Wi-Fi. No server, no account. Needs SimBridge on the Android phone.",
+      "iconURL": "https://hossein9dehghan.github.io/simbridge-download/icon.png",
+      "tintColor": "#000000",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "14",
+          "date": "2026-11-26",
+          "localizedDescription": "Build 14",
+          "downloadURL": "https://hossein9dehghan.github.io/simbridge-download/SimBridge-0.1.0-14.ipa",
+          "size": 9222216,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.application-groups"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "Connects to your Android phone.",
+          "NSCameraUsageDescription": "Scans the pairing code.",
+          "NSMicrophoneUsageDescription": "Your voice during calls.",
+          "NSLocalNetworkUsageDescription": "Connects over Wi-Fi.",
+          "NSContactsUsageDescription": "Names on calls and texts; read on this iPhone only.",
+          "NSPhotoLibraryAddUsageDescription": "Saves pictures you choose."
+        }
+      }
+    }
+  ],
+  "news": []
+}
